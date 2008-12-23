@@ -1,0 +1,29 @@
+Things you need:
+================
+
+PyAWS:
+http://pyaws.sf.net
+
+An AWS-key
+http://aws.amazon.com"
+
+
+Example:
+========
+
+foobar:~/src/BibZone$ ./bibzone.py -t python -c 3 -k INSERT_YOUR_KEY
+1) Learning Python, 3rd Edition
+        by Mark Lutz
+2) Python in a Nutshell, Second Edition (In a Nutshell (O'Reilly))
+        by Alex Martelli
+3) Python Programming: An Introduction to Computer Science
+        by John M. Zelle
+Which item do you want? 1
+BibTex-entry:
+@book{lut08,
+   author = "Mark Lutz",
+   title = "Learning Python, 3rd Edition",
+   publisher = "O'Reilly Media, Inc.",
+   year = "2008",
+   isbn = "0596513984"
+}
